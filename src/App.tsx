@@ -1,5 +1,13 @@
-function App() {
-  return <div>WhosThePlayer</div>;
-}
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Game from "./Game";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <Header/>
+      <Game/>
+      <Footer/>
+    </>
+  );
+}
